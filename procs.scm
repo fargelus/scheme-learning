@@ -19,3 +19,9 @@
 )
 
 (puts (f 5))
+
+(define (>= x y)
+  (not (< x y))
+)
+
+(puts (>= 3 4))
