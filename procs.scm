@@ -46,3 +46,8 @@
   (sum_of_squares max_num second_max)
 )
 (puts (largest_sum_of_squares 1 3 6))
+
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b)
+)
+(puts (a-plus-abs-b 3 -4))
